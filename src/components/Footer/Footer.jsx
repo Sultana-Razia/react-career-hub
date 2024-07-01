@@ -2,7 +2,7 @@
 
 const Footer = () => {
     return (
-        <footer className="footer bg-neutral text-neutral-content p-10">
+        <footer className="footer bg-neutral text-neutral-content py-10 px-[10%]">
             <nav>
                 <h6 className="footer-title">Services</h6>
                 <a className="link link-hover">Branding</a>
@@ -16,6 +16,12 @@ const Footer = () => {
                 <a className="link link-hover">Contact</a>
                 <a className="link link-hover">Jobs</a>
                 <a className="link link-hover">Press kit</a>
+            </nav>
+            <nav>
+                <h6 className="footer-title">Legal</h6>
+                <a className="link link-hover">Terms of use</a>
+                <a className="link link-hover">Privacy policy</a>
+                <a className="link link-hover">Cookie policy</a>
             </nav>
             <nav>
                 <h6 className="footer-title">Legal</h6>
